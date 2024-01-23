@@ -1,0 +1,248 @@
+/* ================   HOME ============== */
+.home {
+  background-image: url(../images/weather-5.jpg);
+  background-size: 100% 100%;
+}
+.homeLayer{
+  background-color:rgba(236, 213, 159) ;
+  opacity: 0.75;
+  
+}
+
+#event h2 {
+  margin-top: 200px;
+}
+
+#event h2,
+p {
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  background-color:black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.open{
+  font-size:30px;
+  cursor:pointer
+}
+
+.firstA{
+  color: #7097A8;
+}
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition:all 0.3s;
+  color: #7097A8;
+}
+
+.sidenav a:hover{
+  color:#ECD59F ;
+  transform: scale(1.1);
+}
+.textCh{
+  color:#D62E33 ;
+  transition:all 0.4s;
+  cursor: pointer;
+  
+}
+.textCh:hover{
+  color:#FFF ;
+  
+}
+
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#homeInfo {
+  transition: all 0.5s;
+}
+
+.divColor{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.divColor:hover{
+  transform: scale(1.2);
+}
+
+.bg-red{
+  background-color: #D62E33;
+  
+}
+.bg-bnafsg{
+  background-color:purple;
+}
+.bg-bllu{
+  background-color: #7097A8;
+}
+.bg-gray{
+  background-color:dimgrey;
+}
+
+
+/* ======================== singers  =============================== */
+
+#singers {
+  padding: 100px 0;
+  margin: 0px auto;
+  width: 50%;
+  text-align: center;
+
+}
+#singers h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: #c6A477;
+  cursor: pointer;
+  color: white;
+}
+#singers div {
+  padding: 10px;
+  background-color: #ECD59F;
+  display: none;
+}
+/* ========================================================= */
+
+#countDownDate {
+
+  background-image: url(../images/weayher-6.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+  z-index: -1;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 213, 159);
+  opacity: 0.85;
+  
+  
+  
+}
+
+.tim {
+  padding: 50px;
+  border: 1px solid #FFF;
+  
+}
+
+#hire-me{
+  background-color:#c6A477;
+  
+}
+#hire-me .head h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color:black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#hire-me .head p {
+  
+  font-weight: 300;
+  font-size: 16px;
+  text-align:left;
+}
+
+#hire-me .con-info h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#hire-me .con-info p {
+  font-size: 16px;
+  line-height: 26px;
+  /* color: #777; */
+}
+
+#hire-me .icons {
+  margin-top: 50px;
+}
+
+#hire-me .icons p {
+  margin-bottom: 35px;
+}
+
+#hire-me i {
+  margin-right: 20px;
+  /* color: #777; */
+}
+
+#hire-me .red {
+  color: #D62E33 !important;
+}
+
+
+#hire-me .con-info .con-social {
+  margin-top: 60px;
+  color:#D62E33;
+
+}
+
+#hire-me .con-info .con-social i {
+  margin-right: 10px;
+  border: 2px solid #ECD59F;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#hire-me .con-info .con-social i:hover {
+  color: #fff;
+  background-color: #D62E33;
+  border: 1px solid #D62E33;
+}
+
+#hire-me form input,
+#hire-me form textarea {
+  margin-bottom: 20px;
+  border-radius: 0;
+  background-color:wheat;
+}
+
+
+#hire-me form textarea {
+  height: 200px;
+  /* resize: vertical; */
+}
+
+#hire-me form button {
+  background-color: #D62E33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase
+}
+
+#char {
+  font-size: 20px;
+  color: #D62E33;
+}
